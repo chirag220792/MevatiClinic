@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PatientTrackerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewPatientTrackerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:hint="Chirag Pokiya"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:id="@+id/textViewPatientTrackerMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:hint="8291253574"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:id="@+id/textViewPatientTrackerAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:hint="Malad"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText_PatientLMP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="LMP" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewPatientCO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:hint="C/O"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <EditText
+                    android:id="@+id/editText_PatientMedicalCO1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="1)" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalCO2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2)"
+                android:paddingLeft="40dp" />
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalCO3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="3)"
+                android:paddingLeft="40dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewPatientOE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:hint="O/E"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <EditText
+                    android:id="@+id/editText_PatientMedicalTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Temperature in Fahrenheits"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalPressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pressure per Minute"
+                android:paddingLeft="40dp" />
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalBP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood Pressure"
+                android:paddingLeft="40dp" />
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RR"
+                android:paddingLeft="40dp" />
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalSPO2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SPo2"
+                android:paddingLeft="40dp" />
+
+            <EditText
+                android:id="@+id/editText_PatientMedicalDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Medical Description" />
+
+            <EditText
+                android:id="@+id/editText_Cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="1000" />
+
+            <Button
+                android:id="@+id/buttonAddPatientTracker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Past Visit Record"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/white" />
+
+            <ListView
+                android:id="@+id/listViewPatientRecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

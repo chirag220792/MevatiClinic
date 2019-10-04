@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231520780359",
+    "firebase_url": "https://mevati-clinic.firebaseio.com",
+    "project_id": "mevati-clinic",
+    "storage_bucket": "mevati-clinic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231520780359:android:2b2d49b286032f50",
+        "android_client_info": {
+          "package_name": "com.rookiesoft.mevaticlinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231520780359-4krqecnsm6ihje5oqpcos0shugtjjthb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rookiesoft.mevaticlinic",
+            "certificate_hash": "7ce09c5f66e1e9069f1f5e6850ea12a1b7901155"
+          }
+        },
+        {
+          "client_id": "231520780359-forh3kb4rd1mi2apvv5o41veku6dgg8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYi9rTjoVbfZiKW1ae_F-YntZFadwM_h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231520780359-forh3kb4rd1mi2apvv5o41veku6dgg8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

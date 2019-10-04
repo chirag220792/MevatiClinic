@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#F1F1F1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageViewPatient"
+            android:src="@mipmap/ic_launcher_round"/>
+        <TextView
+            android:id="@+id/cardView_Patient_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageViewPatient"
+            android:text="Patient Name"
+            />
+        <TextView
+            android:id="@+id/cardView_Patient_Gender"
+            android:layout_toRightOf="@id/cardView_Patient_Name"
+            android:layout_toEndOf="@id/cardView_Patient_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#a9a9a9"
+            android:text="Patient Gender"/>
+
+        <TextView
+            android:layout_below="@id/cardView_Patient_Name"
+            android:id="@+id/cardView_Patient_Mobile"
+            android:layout_toRightOf="@id/imageViewPatient"
+            android:layout_toEndOf="@id/imageViewPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#a9a9a9"
+            android:text="Patient Mobile"/>
+
+        <TextView
+            android:layout_below="@id/cardView_Patient_Mobile"
+            android:id="@+id/cardView_Patient_Address"
+            android:layout_toRightOf="@id/imageViewPatient"
+            android:layout_toEndOf="@id/imageViewPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#a9a9a9"
+            android:text="Patient Address"/>
+
+        <TextView
+            android:id="@+id/cardView_Patient_Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewPatient"
+            android:layout_marginTop="9dp"
+            android:text="Age"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:textColor="#a9a9a9"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
